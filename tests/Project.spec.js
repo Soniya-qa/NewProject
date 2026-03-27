@@ -6,7 +6,7 @@ test('Amazon iPhone flow', async ({ page , context }) => {
 
   // Go to Amazon
   await page.goto('https://www.amazon.in/');
-
+  
   // Search iphone
   await page.locator('#twotabsearchtextbox').fill('iphone');
   await page.locator('#nav-search-submit-button').click();
